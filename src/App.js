@@ -12,7 +12,7 @@ function App() {
   }
 
   return (
-    <div >
+    <div className = 'App' >
       <div>
         <button onClick = {() => changeCount(1)}> - </button>
         {count}
